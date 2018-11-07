@@ -80,7 +80,7 @@ write.csv(distance_between_nodes, file = "kioskMatrix.csv")
 
 # The Full explanantion of this is provided in the readMe file 
 
-file = "kioskMatrix.csv"
+file = "INSERT YOUR MATRIX FILE HERE"
 theData = read.csv(file)
 theData = theData[,-1]
 nodesToTravel = nrow(theData)
